@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  JSMethodSwizzlingDemo
+//
+//  Created by jason on 15/9/23.
+//  Copyright (c) 2015年 jason. All rights reserved.
+//
+
+#ifndef JSMethodSwizzlingDemo_PrefixHeader_pch
+#define JSMethodSwizzlingDemo_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+///用于是否打开使用CocoapPods加入第三方Aspects的开关
+#define JSMethodSwizzlingDemoUseAspectsFromCocoaPods 1
+
+#endif

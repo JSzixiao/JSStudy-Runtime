@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D148C7D1BB286B400E084F6 /* JSViewControllerInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D148C7C1BB286B400E084F6 /* JSViewControllerInterceptor.m */; };
+		3DB82DCE1BB24B81002F9C54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB82DCD1BB24B81002F9C54 /* main.m */; };
+		3DB82DD11BB24B81002F9C54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB82DD01BB24B81002F9C54 /* AppDelegate.m */; };
+		3DB82DD41BB24B81002F9C54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB82DD31BB24B81002F9C54 /* ViewController.m */; };
+		3DB82DD71BB24B81002F9C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB82DD51BB24B81002F9C54 /* Main.storyboard */; };
+		3DB82DD91BB24B81002F9C54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB82DD81BB24B81002F9C54 /* Images.xcassets */; };
+		3DB82DDC1BB24B81002F9C54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DB82DDA1BB24B81002F9C54 /* LaunchScreen.xib */; };
+		3DB82DE81BB24B81002F9C54 /* JSMethodSwizzlingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB82DE71BB24B81002F9C54 /* JSMethodSwizzlingDemoTests.m */; };
+		3DB82DF31BB24F36002F9C54 /* UIViewController+JSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB82DF21BB24F36002F9C54 /* UIViewController+JSBaseViewController.m */; };
+		3DB82DF61BB25991002F9C54 /* TmpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB82DF51BB25991002F9C54 /* TmpViewController.m */; };
+		9FA65FFEEFC0ED9EA48E1DA3 /* libPods-JSMethodSwizzlingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F32B319584C861922EF54E /* libPods-JSMethodSwizzlingDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DB82DE21BB24B81002F9C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB82DC01BB24B80002F9C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB82DC71BB24B80002F9C54;
+			remoteInfo = JSMethodSwizzlingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22F32B319584C861922EF54E /* libPods-JSMethodSwizzlingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSMethodSwizzlingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D148C7A1BB281D400E084F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3D148C7B1BB286B400E084F6 /* JSViewControllerInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewControllerInterceptor.h; sourceTree = "<group>"; };
+		3D148C7C1BB286B400E084F6 /* JSViewControllerInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewControllerInterceptor.m; sourceTree = "<group>"; };
+		3DB82DC81BB24B80002F9C54 /* JSMethodSwizzlingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSMethodSwizzlingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB82DCC1BB24B81002F9C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB82DCD1BB24B81002F9C54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DB82DCF1BB24B81002F9C54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DB82DD01BB24B81002F9C54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DB82DD21BB24B81002F9C54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DB82DD31BB24B81002F9C54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DB82DD61BB24B81002F9C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DB82DD81BB24B81002F9C54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DB82DDB1BB24B81002F9C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3DB82DE11BB24B81002F9C54 /* JSMethodSwizzlingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSMethodSwizzlingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB82DE61BB24B81002F9C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB82DE71BB24B81002F9C54 /* JSMethodSwizzlingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSMethodSwizzlingDemoTests.m; sourceTree = "<group>"; };
+		3DB82DF11BB24F36002F9C54 /* UIViewController+JSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JSBaseViewController.h"; sourceTree = "<group>"; };
+		3DB82DF21BB24F36002F9C54 /* UIViewController+JSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JSBaseViewController.m"; sourceTree = "<group>"; };
+		3DB82DF41BB25991002F9C54 /* TmpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TmpViewController.h; sourceTree = "<group>"; };
+		3DB82DF51BB25991002F9C54 /* TmpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TmpViewController.m; sourceTree = "<group>"; };
+		7318E9488F8B538BA3364648 /* Pods-JSMethodSwizzlingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSMethodSwizzlingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSMethodSwizzlingDemo/Pods-JSMethodSwizzlingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A26AF883DAE1BFA64480DC1D /* Pods-JSMethodSwizzlingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSMethodSwizzlingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSMethodSwizzlingDemo/Pods-JSMethodSwizzlingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB82DC51BB24B80002F9C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA65FFEEFC0ED9EA48E1DA3 /* libPods-JSMethodSwizzlingDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB82DDE1BB24B81002F9C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D99B4CEE3123BBCA6EE4BB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A26AF883DAE1BFA64480DC1D /* Pods-JSMethodSwizzlingDemo.debug.xcconfig */,
+				7318E9488F8B538BA3364648 /* Pods-JSMethodSwizzlingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DB82DBF1BB24B80002F9C54 = {
+			isa = PBXGroup;
+			children = (
+				3DB82DCA1BB24B80002F9C54 /* JSMethodSwizzlingDemo */,
+				3DB82DE41BB24B81002F9C54 /* JSMethodSwizzlingDemoTests */,
+				3DB82DC91BB24B80002F9C54 /* Products */,
+				0D99B4CEE3123BBCA6EE4BB8 /* Pods */,
+				D4F9444044555765C2C7FF3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB82DC91BB24B80002F9C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB82DC81BB24B80002F9C54 /* JSMethodSwizzlingDemo.app */,
+				3DB82DE11BB24B81002F9C54 /* JSMethodSwizzlingDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB82DCA1BB24B80002F9C54 /* JSMethodSwizzlingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3DB82DCF1BB24B81002F9C54 /* AppDelegate.h */,
+				3DB82DD01BB24B81002F9C54 /* AppDelegate.m */,
+				3DB82DD21BB24B81002F9C54 /* ViewController.h */,
+				3DB82DD31BB24B81002F9C54 /* ViewController.m */,
+				3DB82DF41BB25991002F9C54 /* TmpViewController.h */,
+				3DB82DF51BB25991002F9C54 /* TmpViewController.m */,
+				3DB82DF11BB24F36002F9C54 /* UIViewController+JSBaseViewController.h */,
+				3DB82DF21BB24F36002F9C54 /* UIViewController+JSBaseViewController.m */,
+				3D148C7B1BB286B400E084F6 /* JSViewControllerInterceptor.h */,
+				3D148C7C1BB286B400E084F6 /* JSViewControllerInterceptor.m */,
+				3DB82DD51BB24B81002F9C54 /* Main.storyboard */,
+				3DB82DD81BB24B81002F9C54 /* Images.xcassets */,
+				3DB82DDA1BB24B81002F9C54 /* LaunchScreen.xib */,
+				3DB82DCB1BB24B81002F9C54 /* Supporting Files */,
+			);
+			path = JSMethodSwizzlingDemo;
+			sourceTree = "<group>";
+		};
+		3DB82DCB1BB24B81002F9C54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DB82DCC1BB24B81002F9C54 /* Info.plist */,
+				3DB82DCD1BB24B81002F9C54 /* main.m */,
+				3D148C7A1BB281D400E084F6 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DB82DE41BB24B81002F9C54 /* JSMethodSwizzlingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB82DE71BB24B81002F9C54 /* JSMethodSwizzlingDemoTests.m */,
+				3DB82DE51BB24B81002F9C54 /* Supporting Files */,
+			);
+			path = JSMethodSwizzlingDemoTests;
+			sourceTree = "<group>";
+		};
+		3DB82DE51BB24B81002F9C54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DB82DE61BB24B81002F9C54 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4F9444044555765C2C7FF3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22F32B319584C861922EF54E /* libPods-JSMethodSwizzlingDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB82DC71BB24B80002F9C54 /* JSMethodSwizzlingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB82DEB1BB24B81002F9C54 /* Build configuration list for PBXNativeTarget "JSMethodSwizzlingDemo" */;
+			buildPhases = (
+				E3E29B6F7A636576C790CEFC /* Check Pods Manifest.lock */,
+				3DB82DC41BB24B80002F9C54 /* Sources */,
+				3DB82DC51BB24B80002F9C54 /* Frameworks */,
+				3DB82DC61BB24B80002F9C54 /* Resources */,
+				FFAC7650A52F0D956068763E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSMethodSwizzlingDemo;
+			productName = JSMethodSwizzlingDemo;
+			productReference = 3DB82DC81BB24B80002F9C54 /* JSMethodSwizzlingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DB82DE01BB24B81002F9C54 /* JSMethodSwizzlingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB82DEE1BB24B81002F9C54 /* Build configuration list for PBXNativeTarget "JSMethodSwizzlingDemoTests" */;
+			buildPhases = (
+				3DB82DDD1BB24B81002F9C54 /* Sources */,
+				3DB82DDE1BB24B81002F9C54 /* Frameworks */,
+				3DB82DDF1BB24B81002F9C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB82DE31BB24B81002F9C54 /* PBXTargetDependency */,
+			);
+			name = JSMethodSwizzlingDemoTests;
+			productName = JSMethodSwizzlingDemoTests;
+			productReference = 3DB82DE11BB24B81002F9C54 /* JSMethodSwizzlingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB82DC01BB24B80002F9C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = jason;
+				TargetAttributes = {
+					3DB82DC71BB24B80002F9C54 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3DB82DE01BB24B81002F9C54 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3DB82DC71BB24B80002F9C54;
+					};
+				};
+			};
+			buildConfigurationList = 3DB82DC31BB24B80002F9C54 /* Build configuration list for PBXProject "JSMethodSwizzlingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB82DBF1BB24B80002F9C54;
+			productRefGroup = 3DB82DC91BB24B80002F9C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB82DC71BB24B80002F9C54 /* JSMethodSwizzlingDemo */,
+				3DB82DE01BB24B81002F9C54 /* JSMethodSwizzlingDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB82DC61BB24B80002F9C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB82DD71BB24B81002F9C54 /* Main.storyboard in Resources */,
+				3DB82DDC1BB24B81002F9C54 /* LaunchScreen.xib in Resources */,
+				3DB82DD91BB24B81002F9C54 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB82DDF1BB24B81002F9C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3E29B6F7A636576C790CEFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFAC7650A52F0D956068763E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSMethodSwizzlingDemo/Pods-JSMethodSwizzlingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB82DC41BB24B80002F9C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB82DD41BB24B81002F9C54 /* ViewController.m in Sources */,
+				3DB82DF31BB24F36002F9C54 /* UIViewController+JSBaseViewController.m in Sources */,
+				3DB82DF61BB25991002F9C54 /* TmpViewController.m in Sources */,
+				3D148C7D1BB286B400E084F6 /* JSViewControllerInterceptor.m in Sources */,
+				3DB82DD11BB24B81002F9C54 /* AppDelegate.m in Sources */,
+				3DB82DCE1BB24B81002F9C54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB82DDD1BB24B81002F9C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB82DE81BB24B81002F9C54 /* JSMethodSwizzlingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DB82DE31BB24B81002F9C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB82DC71BB24B80002F9C54 /* JSMethodSwizzlingDemo */;
+			targetProxy = 3DB82DE21BB24B81002F9C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DB82DD51BB24B81002F9C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB82DD61BB24B81002F9C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DB82DDA1BB24B81002F9C54 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB82DDB1BB24B81002F9C54 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB82DE91BB24B81002F9C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DB82DEA1BB24B81002F9C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB82DEC1BB24B81002F9C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26AF883DAE1BFA64480DC1D /* Pods-JSMethodSwizzlingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JSMethodSwizzlingDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = JSMethodSwizzlingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DB82DED1BB24B81002F9C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7318E9488F8B538BA3364648 /* Pods-JSMethodSwizzlingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JSMethodSwizzlingDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = JSMethodSwizzlingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DB82DEF1BB24B81002F9C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSMethodSwizzlingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSMethodSwizzlingDemo.app/JSMethodSwizzlingDemo";
+			};
+			name = Debug;
+		};
+		3DB82DF01BB24B81002F9C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSMethodSwizzlingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSMethodSwizzlingDemo.app/JSMethodSwizzlingDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB82DC31BB24B80002F9C54 /* Build configuration list for PBXProject "JSMethodSwizzlingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB82DE91BB24B81002F9C54 /* Debug */,
+				3DB82DEA1BB24B81002F9C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB82DEB1BB24B81002F9C54 /* Build configuration list for PBXNativeTarget "JSMethodSwizzlingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB82DEC1BB24B81002F9C54 /* Debug */,
+				3DB82DED1BB24B81002F9C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB82DEE1BB24B81002F9C54 /* Build configuration list for PBXNativeTarget "JSMethodSwizzlingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB82DEF1BB24B81002F9C54 /* Debug */,
+				3DB82DF01BB24B81002F9C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB82DC01BB24B80002F9C54 /* Project object */;
+}
